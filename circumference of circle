@@ -1,0 +1,24 @@
+#include<stdio.h> 
+ int main()
+{
+ 
+   int r;
+   float PI = 3.14, area, circle;
+ 
+   printf("\nEnter radius of circle: ");
+   scanf("%d", &r);
+ 
+     area = PI * r * r;
+   printf("\nArea of circle : %f ", area);
+ 
+     circle = 2 * PI * r;
+   printf("\nCircumference : %f ", circle);
+ 
+   return (0);
+
+}
+out put:
+enter radius of circle :3
+area of a circle  = 28.260000
+circumference  =18.840000
+
